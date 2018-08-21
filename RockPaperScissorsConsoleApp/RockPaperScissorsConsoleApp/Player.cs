@@ -1,13 +1,16 @@
 ﻿using System;
 
-public class Player
+namespace RockPaperScissorsConsoleApp
 {
-    public string name;
-    public string chosenMove;
+    public class Player
+    {
+        public string name;
+        public string chosenMove;
 
-	public Player(string _name, string _chosenMove)
-	{
-        name = _name;
-        chosenMove = _chosenMove;
-	}
+        public Player(string _name, string _chosenMove)
+        {
+            name = _name;
+            chosenMove = _chosenMove;
+        }
+    }
 }
